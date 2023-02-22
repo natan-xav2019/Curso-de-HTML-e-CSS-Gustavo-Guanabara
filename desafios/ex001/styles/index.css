@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main#principal {
+    margin-top: 1rem;
+}
