@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.color-theme_B2D0F53B-996D-4B52-A70D-D4F53D46C85F-1-hex { color: #F2E291; }
+.color-theme_B2D0F53B-996D-4B52-A70D-D4F53D46C85F-2-hex { color: #F28963; }
+.color-theme_B2D0F53B-996D-4B52-A70D-D4F53D46C85F-3-hex { color: #4C797B; }
+.color-theme_B2D0F53B-996D-4B52-A70D-D4F53D46C85F-4-hex { color: #CB544B; }
+.color-theme_B2D0F53B-996D-4B52-A70D-D4F53D46C85F-5-hex { color: #9DBCAC; }
+
+* {
+    font-size: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #9DBCAC, #F2E291);
+}
+
+main {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 15px hsla(183, 24%, 33%, 0.699);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #CB544B;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(203, 83, 75, 0.719);
+}
+
+h2 {
+    color: #F28963;
+}
+
+p {
+    text-align: justify;
+}
