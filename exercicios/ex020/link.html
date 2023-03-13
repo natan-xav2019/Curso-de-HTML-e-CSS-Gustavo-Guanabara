@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalisando Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:visited { /* Quando a pessoa ja tenha clicado */
+            color: darkred;
+        }
+
+        a:hover { /* Quando passa o mouse por cima */
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active { /* no momento que e clicado */
+            color: yellow;
+        }
+
+        .especial {
+            background-color: #ff9a9a;
+        }
+
+        .especial::before {
+            content: "→ ";
+        }
+
+        .especial::after {
+            content: ' ←';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://github.com/natan-xav2019/Curso-de-HTML-e-CSS" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/channel/UC2ETfkirQVLJxFjwYFjFGtA" target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com/matricule-se-agora/?gclid=Cj0KCQjwk7ugBhDIARIsAGuvgPbzluv8IXwjBaZhR2O34zqfjJxno71Ey4oLty2uCiuaPUyIefL6BIkaAkO3EALw_wcB" target="_blank" class="especial">Site do CursoemVídeo</a></li>
+    </ul>
+</body>
+</html>
