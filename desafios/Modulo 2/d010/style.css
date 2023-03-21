@@ -153,6 +153,19 @@
             color: white;
         }
 
+        div#list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        #list ul li {
+            list-style-type: "\1F5F8  ";
+        }
+        #list ul li a{
+            color: black;
+        }
+
         footer {
             margin-top: 1.5rem;
             padding: 0.4rem 0;
