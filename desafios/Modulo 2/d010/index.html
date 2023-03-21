@@ -29,12 +29,12 @@
         }
 
         header h1 {
+            margin: 0;
+            padding: 10px 0px;
 
             font: 400 3em 'Bebas Neue', 'cursive';
             color: white;
             text-align: center;
-
-            padding: 10px 0px;
         }
 
         header section {
@@ -49,11 +49,26 @@
 
         header nav {
             display: flex;
-            gap: 15px;
         }
 
         header nav a {
             text-decoration: none;
+
+            font-size: 1.6em;
+            color: white;
+
+            padding: 0.5rem;
+
+            transition: 1s;
+        }
+
+        header nav a:hover {
+            background-color: #84e4ac;
+        }
+        
+        header nav a:first-child {
+            
+            margin-left: 2rem;
         }
 
         main {
