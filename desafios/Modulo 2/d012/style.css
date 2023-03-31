@@ -17,7 +17,7 @@ header {
 
 header h1 {
     font-family: 'Passion One', cursive;
-    font-size: 9em;
+    font-size: 8vw;
 
     padding: 30px 0 10px;
 }
@@ -42,4 +42,6 @@ header p > a:hover {
 
 main p {
     font-family: 'Sriracha', cursive;
+    font-size: 3vw;
+    margin: 100px;
 }
