@@ -57,8 +57,6 @@ main .estrofe {
 }
 
 main div.imagem {
-    width: 97vw;
-
     background-color: black;
     background-image: url(imagens/background001.jpg);
     background-position: center right;
