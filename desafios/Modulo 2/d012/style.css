@@ -58,15 +58,30 @@ main .estrofe {
 
 main div.imagem {
     background-color: black;
-    background-image: url(imagens/background001.jpg);
     background-position: center right;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-attachment: fixed;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.408);
 }
 
 main div.imagem p {
     display: inline-block;
     color: #f6f6f6;
-    background-color: rgba(0, 0, 0, 0.512);
+    background-color: rgba(0, 0, 0, 0.373);
     padding: 10px;
+
+    box-shadow: 1px 1px 0px black;
+}
+
+div#img01 {
+    background-image: url(imagens/background001.jpg);
+}
+
+div#img02 {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
